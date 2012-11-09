@@ -99,7 +99,7 @@
       <SubSystem>Windows</SubSystem>
       <OutputFile>.\Release\nethackw.exe</OutputFile>
       <AdditionalDependencies>comctl32.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalOptions> /MAPINFO:EXPORTS  /MAPINFO:LINES </AdditionalOptions>
+      <AdditionalOptions> /MAPINFO:EXPORTS </AdditionalOptions>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
