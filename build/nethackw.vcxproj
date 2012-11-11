@@ -67,6 +67,7 @@
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
       <AdditionalOptions> /Gs /Oi- </AdditionalOptions>
+      <DisableSpecificWarnings>4996;4113</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>copy $(OutDir)NetHackW.exe ..\binary
@@ -121,6 +122,7 @@
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4996;4113</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>if NOT exist ..\binary\*.* mkdir ..\binary

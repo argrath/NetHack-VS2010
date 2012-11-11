@@ -62,6 +62,7 @@
       <PrecompiledHeaderOutputFile>.\Release\recover.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>copy $(OutDir)recover.exe ..\binary
@@ -102,6 +103,7 @@
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>copy $(OutDir)recover.exe ..\binary

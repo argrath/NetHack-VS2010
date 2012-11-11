@@ -63,6 +63,7 @@
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>echo chdir ..\util
@@ -135,6 +136,7 @@ chdir ..\build
       <PrecompiledHeaderOutputFile>.\Release\makedefs.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
     <PostBuildEvent>
       <Command>echo chdir ..\util
