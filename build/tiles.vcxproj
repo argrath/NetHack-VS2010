@@ -42,6 +42,7 @@
     <NMakeBuildCommandLine>nmake /f "tiles.mak"</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>nmake /f "tiles.mak" /a</NMakeReBuildCommandLine>
     <NMakeOutput>..\win\win32\tiles.bmp</NMakeOutput>
+    <NMakeCleanCommandLine>rem</NMakeCleanCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>.\Debug\</OutDir>
@@ -49,6 +50,7 @@
     <NMakeBuildCommandLine>nmake /f "tiles.mak"</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>nmake /f "tiles.mak" /a</NMakeReBuildCommandLine>
     <NMakeOutput>..\win\win32\tiles.bmp</NMakeOutput>
+    <NMakeCleanCommandLine>rem</NMakeCleanCommandLine>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

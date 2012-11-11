@@ -42,6 +42,7 @@
     <NMakeBuildCommandLine>nmake /f "dgnstuff.mak"</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>nmake /f "dgnstuff.mak" /a</NMakeReBuildCommandLine>
     <NMakeOutput>..\util\dgncomp.exe</NMakeOutput>
+    <NMakeCleanCommandLine>rem</NMakeCleanCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>.\Release\</OutDir>
@@ -49,6 +50,7 @@
     <NMakeBuildCommandLine>nmake /f "dgnstuff.mak"</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>nmake /f "dgnstuff.mak" /a</NMakeReBuildCommandLine>
     <NMakeOutput>..\util\dgncomp.exe</NMakeOutput>
+    <NMakeCleanCommandLine>rem</NMakeCleanCommandLine>
   </PropertyGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
